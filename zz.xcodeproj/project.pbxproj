@@ -13,6 +13,8 @@
 		A59502FC27AA910A00A5ACE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A59502FA27AA910A00A5ACE1 /* Main.storyboard */; };
 		A59502FE27AA910C00A5ACE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A59502FD27AA910C00A5ACE1 /* Assets.xcassets */; };
 		A595030127AA910C00A5ACE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A59502FF27AA910C00A5ACE1 /* LaunchScreen.storyboard */; };
+		A5CF648027AA981C00BBD170 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CF647F27AA981C00BBD170 /* SignInViewController.swift */; };
+		A5CF648227AA994400BBD170 /* CandyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CF648127AA994400BBD170 /* CandyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A59502FD27AA910C00A5ACE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A595030027AA910C00A5ACE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A595030227AA910C00A5ACE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5CF647F27AA981C00BBD170 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		A5CF648127AA994400BBD170 /* CandyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				A59502F627AA910A00A5ACE1 /* SceneDelegate.swift */,
 				A59502F827AA910A00A5ACE1 /* ViewController.swift */,
 				A59502FA27AA910A00A5ACE1 /* Main.storyboard */,
+				A5CF647F27AA981C00BBD170 /* SignInViewController.swift */,
+				A5CF648127AA994400BBD170 /* CandyViewController.swift */,
 				A59502FD27AA910C00A5ACE1 /* Assets.xcassets */,
 				A59502FF27AA910C00A5ACE1 /* LaunchScreen.storyboard */,
 				A595030227AA910C00A5ACE1 /* Info.plist */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5CF648227AA994400BBD170 /* CandyViewController.swift in Sources */,
+				A5CF648027AA981C00BBD170 /* SignInViewController.swift in Sources */,
 				A59502F927AA910A00A5ACE1 /* ViewController.swift in Sources */,
 				A59502F527AA910A00A5ACE1 /* AppDelegate.swift in Sources */,
 				A59502F727AA910A00A5ACE1 /* SceneDelegate.swift in Sources */,
